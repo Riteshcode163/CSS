@@ -1,0 +1,50 @@
+/* *{
+    background-color: #445787;
+} */
+/* CSS code for setting background color */
+/*  */
+body {
+    background-color: #6f80ab;
+    margin: 0; /* Ensure there are no margins affecting layout */
+}
+
+#main {
+    height: 500px;
+    width: 400px;
+    background-color: #445787;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 20px; /* Add padding to ensure content stays within the box */
+}
+
+#main h1 {
+    color: azure;
+    margin: 0; /* Reset margin for better control */
+    padding: 10px 0; /* Adjust padding to create space around the text */
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures even spacing between elements */
+    width: 80%; /* Adjust width as necessary */
+    margin: 20px auto; /* Center the form group and add margin */
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: azure; /* Match the color with your design */
+}

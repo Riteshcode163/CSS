@@ -1,0 +1,27 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: gainsboro;
+    margin: 10px auto;
+    border: 2px solid black;
+    display:flex;
+    /* flex-direction: column; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* align-content: start; */
+
+}
+h1{
+    text-align: center;
+}
+#container div{
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    color: white;
+   
+}

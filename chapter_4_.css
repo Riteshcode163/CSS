@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: wheat;
+    transition: 1s;
+}
+div:hover{
+    background-color: rgba(165, 42, 42, 0.595);
+    border-radius: 50%;
+
+
+}
