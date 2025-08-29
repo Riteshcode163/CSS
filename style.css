@@ -1,0 +1,50 @@
+
+      *{
+        font-family: Georgia;
+        background-color: wheat;
+        /* text-align: center; */
+        text-decoration: none;
+        
+
+      }
+      
+      
+      h1{
+        color:#b92b27;
+      }
+      #login{
+        background-color: white;
+      }
+      #signup{
+        background-color:#b92b27;
+        color: white;
+      }
+      .upvote{
+        background-color: #b92b27;
+        color: azure;
+      }
+      /* nav ul li {
+        text-align: center;
+      }
+       */
+       p+h3{
+        text-decoration: underline;
+       }
+       .upvote+button{
+        font-weight: 600;
+        background-color: blanchedalmond;
+       }
+       div>input{
+        background-color: blanchedalmond;
+       }
+       button:hover{
+        
+        background-color: dimgray;
+
+       }
+       button:active{
+        background-color: rgb(147, 147, 20);
+       }
+       input{
+        background-color: black;
+       }
